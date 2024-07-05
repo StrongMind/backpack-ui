@@ -14,3 +14,5 @@ gem "sprockets-rails"
 # gem "debug", ">= 1.0.0"
 
 gem "view_component"
+
+gem 'sass-rails'

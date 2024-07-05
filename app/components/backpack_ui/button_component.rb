@@ -2,13 +2,13 @@
 
 module BackpackUi
   class ButtonComponent < ViewComponent::Base
-    attr_reader :type
+    attr_reader :options
 
-    def initialize(name:, icon:, type: 'primary', size: 'medium')
-      @name = name
+    def initialize(text:, icon:, type: 'button', options: {})
+      @text = text
       @icon = icon
       @type = type
-      @size = size
+      @options = options.reverse_merge(defaults)
     end
 
     def style
@@ -21,7 +21,7 @@ module BackpackUi
         link: "sm-btn-link",
         delete: "sm-btn-delete",
         no_outline: "sm-btn-no-outline",
-      }[type.to_sym] + " " + "sm-btn" + " " + size
+      }[options[:classification].to_sym] + " " + "sm-btn" + " " + size[options[:size].to_sym]
     end
 
     def size
@@ -29,7 +29,16 @@ module BackpackUi
         small: "sm-btn-small",
         medium: "sm-btn-medium",
         large: "sm-btn-large",
-      }[@size.to_sym]
+      }
+    end
+
+    private
+
+    def defaults
+      {
+        classification: 'primary',
+        size: 'medium',
+      }
     end
   end
 end

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description = "UI components for StrongMind applications."
   spec.homepage = "https://github.com/strongmind/backpack-ui"
   spec.required_ruby_version = ">= 3.0.0"
-
+  spec.license     = "MIT"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/StrongMind/backpack-ui"
   spec.metadata["changelog_uri"] = "https://github.com/StrongMind/backpack-ui/blob/main/CHANGELOG.md"

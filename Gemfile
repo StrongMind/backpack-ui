@@ -17,3 +17,7 @@ gem "view_component"
 
 gem 'sassc-rails'
 gem 'view_component-storybook'
+
+gem 'turbo-rails'
+gem 'importmap-rails'
+gem 'hotwire-livereload', group: :development

@@ -22,4 +22,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 7.1.3.4"
   spec.add_dependency "sassc-rails"
   spec.add_dependency "view_component"
+  spec.add_dependency "turbo-rails"
+  spec.add_dependency "importmap-rails"
+
+  spec.add_development_dependency "hotwire-livereload"
 end

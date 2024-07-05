@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Specify your gem's dependencies in backpack_ui.gemspec.
 gemspec
 
+gem 'less-rails'
+
 gem "puma"
 
 gem 'sqlite3', '~> 1.4'

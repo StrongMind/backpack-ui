@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/backpack_ui .css
+//= link backpack_ui/application.scss

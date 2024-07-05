@@ -1,5 +1,6 @@
-@import "variables";
+//Variables
+@import '_variables.scss';
 
-.sm-btn {
-    background-color: $bg-black;
-}
+//Components
+@import "button.scss";
+

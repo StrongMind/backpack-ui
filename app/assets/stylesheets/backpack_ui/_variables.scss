@@ -1,1 +1,404 @@
-$bg-black: #000000;
+// Slate
+$slate-50: #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #e2e8f0;
+$slate-300: #cbd5e1;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-600: #475569;
+$slate-700: #334155;
+$slate-800: #1e293b;
+$slate-900: #0f172a;
+$slate-950: #020617;
+
+// Gray
+$gray-50: #f9fafb;
+$gray-100: #f3f4f6;
+$gray-200: #e5e7eb;
+$gray-300: #d1d5db;
+$gray-400: #9ca3af;
+$gray-500: #6b7280;
+$gray-600: #4b5563;
+$gray-700: #374151;
+$gray-800: #1f2937;
+$gray-900: #111827;
+$gray-950: #030712;
+
+// Zinc
+$zinc-50: #fafafa;
+$zinc-100: #f4f4f5;
+$zinc-200: #e4e4e7;
+$zinc-300: #d4d4d8;
+$zinc-400: #a1a1aa;
+$zinc-500: #71717a;
+$zinc-600: #52525b;
+$zinc-700: #3f3f46;
+$zinc-800: #27272a;
+$zinc-900: #18181b;
+$zinc-950: #09090b;
+
+// Neutral
+$neutral-0: #FFFFFF;
+$neutral-50: #fafafa;
+$neutral-100: #f5f5f5;
+$neutral-200: #e5e5e5;
+$neutral-300: #d4d4d4;
+$neutral-400: #a3a3a3;
+$neutral-500: #737373;
+$neutral-600: #525252;
+$neutral-700: #404040;
+$neutral-800: #262626;
+$neutral-900: #171717;
+$neutral-950: #0a0a0a;
+
+// Stone
+$stone-50: #fafaf9;
+$stone-100: #f5f5f4;
+$stone-200: #e7e5e4;
+$stone-300: #d6d3d1;
+$stone-400: #a8a29e;
+$stone-500: #78716c;
+$stone-600: #57534e;
+$stone-700: #44403c;
+$stone-800: #292524;
+$stone-900: #1c1917;
+$stone-950: #0c0a09;
+
+// Red
+$red-50: #fef2f2;
+$red-100: #fee2e2;
+$red-200: #fecaca;
+$red-300: #fca5a5;
+$red-400: #f87171;
+$red-500: #ef4444;
+$red-600: #dc2626;
+$red-700: #b91c1c;
+$red-800: #991b1b;
+$red-900: #7f1d1d;
+$red-950: #450a0a;
+
+// Orange (Brand)
+$orange-50: #fff9ed;
+$orange-100: #fff1d4;
+$orange-200: #ffdea8;
+$orange-300: #ffc670;
+$orange-400: #ffa237;
+$orange-500: #ff8814;
+$orange-600: #f06a06;
+$orange-700: #c74f07;
+$orange-800: #9e3e0e;
+$orange-900: #7f350f;
+$orange-950: #451805;
+
+// Yellow (Brand)
+$yellow-50: #fffaeb;
+$yellow-100: #fff2c6;
+$yellow-200: #ffe388;
+$yellow-300: #ffcf4a;
+$yellow-400: #ffb514;
+$yellow-500: #f99607;
+$yellow-600: #dd6f02;
+$yellow-700: #b74d06;
+$yellow-800: #943a0c;
+$yellow-900: #7a300d;
+$yellow-950: #461802;
+
+// Lime (Brand)
+$lime-50: #f4fce9;
+$lime-100: #e6f8cf;
+$lime-200: #cff1a5;
+$lime-300: #afe571;
+$lime-400: #8ad43a;
+$lime-500: #72bc26;
+$lime-600: #56961a;
+$lime-700: #437219;
+$lime-800: #375b19;
+$lime-900: #314d1a;
+$lime-950: #172a09;
+
+// Green
+$green-50: #f0fdf4;
+$green-100: #dcfce7;
+$green-200: #bbf7d0;
+$green-300: #86efac;
+$green-400: #4ade80;
+$green-500: #22c55e;
+$green-600: #16a34a;
+$green-700: #15803d;
+$green-800: #166534;
+$green-900: #14532d;
+$green-950: #052e16;
+
+// Emerald
+$emerald-50: #ecfdf5;
+$emerald-100: #d1fae5;
+$emerald-200: #a7f3d0;
+$emerald-300: #6ee7b7;
+$emerald-400: #34d399;
+$emerald-500: #10b981;
+$emerald-600: #059669;
+$emerald-700: #047857;
+$emerald-800: #065f46;
+$emerald-900: #064e3b;
+$emerald-950: #022c22;
+
+// Teal
+$teal-50: #f0fdfa;
+$teal-100: #ccfbf1;
+$teal-200: #99f6e4;
+$teal-300: #5eead4;
+$teal-400: #2dd4bf;
+$teal-500: #14b8a6;
+$teal-600: #0d9488;
+$teal-700: #0f766e;
+$teal-800: #115e59;
+$teal-900: #134e4a;
+$teal-950: #042f2e;
+
+// Cyan
+$cyan-50: #ecfeff;
+$cyan-100: #cffafe;
+$cyan-200: #a5f3fc;
+$cyan-300: #67e8f9;
+$cyan-400: #22d3ee;
+$cyan-500: #06b6d4;
+$cyan-600: #0891b2;
+$cyan-700: #0e7490;
+$cyan-800: #155e75;
+$cyan-900: #164e63;
+$cyan-950: #083344;
+
+// Sky (Brand)
+$sky-50: #eff8ff;
+$sky-100: #def1ff;
+$sky-200: #b6e4ff;
+$sky-300: #75d0ff;
+$sky-400: #2db8ff;
+$sky-500: #0faafe;
+$sky-600: #007fd3;
+$sky-700: #0065aa;
+$sky-800: #00558c;
+$sky-900: #064774;
+$sky-950: #042d4d;
+
+// Blue
+$blue-50: #eff6ff;
+$blue-100: #dbeafe;
+$blue-200: #bfdbfe;
+$blue-300: #93c5fd;
+$blue-400: #60a5fa;
+$blue-500: #3b82f6;
+$blue-600: #2563eb;
+$blue-700: #1d4ed8;
+$blue-800: #1e40af;
+$blue-900: #1e3a8a;
+$blue-950: #172554;
+
+// Indigo
+$indigo-50: #eef2ff;
+$indigo-100: #e0e7ff;
+$indigo-200: #c7d2fe;
+$indigo-300: #a5b4fc;
+$indigo-400: #818cf8;
+$indigo-500: #6366f1;
+$indigo-600: #4f46e5;
+$indigo-700: #4338ca;
+$indigo-800: #3730a3;
+$indigo-900: #312e81;
+$indigo-950: #1e1b4b;
+
+// Violet
+$violet-50: #f5f3ff;
+$violet-100: #ede9fe;
+$violet-200: #ddd6fe;
+$violet-300: #c4b5fd;
+$violet-400: #a78bfa;
+$violet-500: #8b5cf6;
+$violet-600: #7c3aed;
+$violet-700: #6d28d9;
+$violet-800: #5b21b6;
+$violet-900: #4c1d95;
+$violet-950: #2e1065;
+
+// Purple
+$purple-50: #faf5ff;
+$purple-100: #f3e8ff;
+$purple-200: #e9d5ff;
+$purple-300: #d8b4fe;
+$purple-400: #c084fc;
+$purple-500: #a855f7;
+$purple-600: #9333ea;
+$purple-700: #7e22ce;
+$purple-800: #6b21a8;
+$purple-900: #581c87;
+$purple-950: #3b0764;
+
+// Fuchsia
+$fuchsia-50: #fdf4ff;
+$fuchsia-100: #fae8ff;
+$fuchsia-200: #f5d0fe;
+$fuchsia-300: #f0abfc;
+$fuchsia-400: #e879f9;
+$fuchsia-500: #d946ef;
+$fuchsia-600: #c026d3;
+$fuchsia-700: #a21caf;
+$fuchsia-800: #86198f;
+$fuchsia-900: #701a75;
+$fuchsia-950: #4a044e;
+
+// Pink
+$pink-50: #fdf2f8;
+$pink-100: #fce7f3;
+$pink-200: #fbcfe8;
+$pink-300: #f9a8d4;
+$pink-400: #f472b6;
+$pink-500: #ec4899;
+$pink-600: #db2777;
+$pink-700: #be185d;
+$pink-800: #9d174d;
+$pink-900: #831843;
+$pink-950: #500724;
+
+// Rose
+$rose-50: #fff1f2;
+$rose-100: #ffe4e6;
+$rose-200: #fecdd3;
+$rose-300: #fda4af;
+$rose-400: #fb7185;
+$rose-500: #f43f5e;
+$rose-600: #e11d48;
+$rose-700: #be123c;
+$rose-800: #9f1239;
+$rose-900: #881337;
+$rose-950: #4c0519;
+
+// Fonts
+$font-primary: 'Open Sans', sans-serif;
+
+$body-font-size: 16px;
+$body-font-size-mobile: 12px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 900;
+
+// Padding
+$padding-block: 10px;
+$padding-inline: 14px;
+$padding: $padding-block $padding-inline;
+
+$padding-small-block: 8px;
+$padding-small-inline: 12px;
+$padding-small: $padding-small-block $padding-small-inline;
+
+$border-radius-rounded-corner: 4px;
+$border-radius-container: 8px;
+$border-radius-pill: $padding-inline * 2;
+$border-radius-pill-small: $padding-small-inline * 2;
+
+$spacing: $padding-block;
+$spacing-small: $padding-small-block;
+
+$box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+$box-shadow-hover: 0px 1px 6px;
+
+// Breakpoints
+$small-break-point: 620px;
+$medium-break-point: 1024px;
+
+:root {
+    --background-color: #{$neutral-100};
+    --foreground-color: #{$neutral-800};
+
+    --border-color: #{$neutral-300};
+
+    // UI Colors
+    --primary-color: #{$yellow-400};
+    --primary-color-hover: #{$yellow-300};
+
+    --secondary-color: #{$fuchsia-900};
+    --secondary-color-hover: #{$fuchsia-950};
+
+    --tertiary-color: #{$neutral-800};
+    --tertiary-color-hover: #{$neutral-950};
+
+    --outline-color: #{$neutral-200};
+    --outline-color-hover: #{$neutral-600};
+
+    --outline-dark-color: #{$neutral-600};
+    --outline-dark-color-hover: #{$neutral-200};
+
+    --outline-none-color: transparent;
+    --outline-none-color-hover: #{$neutral-200};
+
+    --notification-color: #{$red-500};
+    --notification-text: #{$neutral-100};
+
+    // Link
+    --link-color: #{$sky-600};
+    --link-color-visited: #{$sky-600};
+    --link-color-hover: #{$sky-600};
+
+    // Utility Colors
+    --info-color: #{$sky-600};
+    --info-color-light: #{$sky-200};
+    --success-color: #{$lime-600};
+    --success-color-light: #{$lime-200};
+    --warning-color: #{$orange-500};
+    --warning-color-light: #{$orange-200};
+    --error-color: #{$red-600};
+    --error-color-light: #{$red-200};
+
+    // Generic Colors
+    --blue-color: #{$sky-400};
+    --gray-color: #{$neutral-400};
+    --green-color: #{$lime-400};
+    --orange-color: #{$orange-400};
+    --red-color: #{$red-400};
+    --yellow-color: #{$yellow-400};
+}
+
+// MELLOW HAS NOT BEEN UPDATED IN AWHILE. It must follow the same variables as the root
+.strongmind-ui-theme-mellow {
+    --background-color: #{$sky-200};
+    --foreground-color: #{$neutral-800};
+    --border-color: #{$neutral-400};
+
+    // UI Colors
+    --highlight-color: #{$sky-300};
+    --highlight-background-color: #{$sky-300};
+    --highlight-text-color: #{$neutral-700};
+
+    --secondary-background-color: #{$sky-200};
+    --secondary-text-color: #{$neutral-700};
+
+    --notification-color: #{$red-300};
+    --notification-text: #{$neutral-700};
+
+    // Utility Colors
+    --info-color: #{$sky-400};
+    --warning-color: #{$orange-300};
+    --success-color: #{$lime-300};
+    --error-color: #{$red-300};
+
+    // Generic Colors
+    --blue-color: #{$sky-200};
+    --gray-color: #{$neutral-200};
+    --green-color: #{$lime-200};
+    --orange-color: #{$orange-200};
+    --red-color: #{$red-200};
+    --yellow-color: #{$yellow-200};
+
+    // Link
+    --link-color: #{$sky-300};
+    --link-color-visited: #{$sky-400};
+    --link-color-hover: #{$sky-500};
+}
+
+// Mixin
+@mixin disabled() {
+    cursor: not-allowed;
+    pointer-events: none;
+}

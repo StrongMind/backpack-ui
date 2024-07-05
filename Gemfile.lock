@@ -200,10 +200,14 @@ GEM
       activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
+    view_component-storybook (1.0.0)
+      view_component (>= 2.54)
+      yard (~> 0.9.25)
     webrick (1.8.1)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    yard (0.9.36)
     zeitwerk (2.6.16)
 
 PLATFORMS
@@ -216,6 +220,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   view_component
+  view_component-storybook
 
 BUNDLED WITH
    2.5.14

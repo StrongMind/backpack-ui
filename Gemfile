@@ -16,3 +16,4 @@ gem "sprockets-rails"
 gem "view_component"
 
 gem 'sass-rails'
+gem 'view_component-storybook'

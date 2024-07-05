@@ -1,3 +1,10 @@
 <h1>TestComponents#index</h1>
 <h4>Button</h4>
-<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check" ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'primary' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'secondary' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'tertiary' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'outline' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'no_outline' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'outline_dark' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'link' ) ) %>
+<%= render( BackpackUi::ButtonComponent.new( name: "Click me", icon: "fa-check", type: 'delete' ) ) %>

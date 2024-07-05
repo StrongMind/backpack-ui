@@ -34,6 +34,26 @@ Or install it yourself as:
 $ gem install backpack_ui
 ```
 
+## Configuring a Rails application
+Add the following to your `app/assets/stylesheets/application.css` file:
+
+```css
+*= require backpack_ui/application
+```
+
+Add the following to your `app/assets/javascripts/application.js` file:
+
+```javascript
+import "backpack_ui/application"
+```
+
+Add the following to your `app/config/routes.rb` file:
+
+```ruby
+mount BackpackUi::Engine => "/backpack_ui"
+```
+
+
 ## Running locally
 
 To run the engine locally, clone the repository and run the following commands:

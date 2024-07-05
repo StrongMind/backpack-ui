@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.1.3.4"
   spec.add_dependency "sass-rails"
+  spec.add_dependency "view_component"
 end

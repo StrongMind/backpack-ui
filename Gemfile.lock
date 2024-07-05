@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    backpack_ui (0.1.0)
+    backpack_ui (0.1.1)
       importmap-rails
       rails (>= 7.1.3.4)
       sassc-rails
